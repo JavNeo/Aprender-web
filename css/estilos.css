@@ -1,0 +1,166 @@
+#principal{
+	width: 900px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;/*centrar*/
+}
+
+header{
+   width: 900px;
+   height: 100px;
+   border: 0px solid #000;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left;
+}
+
+.titulo{
+	font-size: 30px;
+	margin-top: 25px;
+}
+
+.sub-titulo{
+	font-size: 14px;
+}
+
+.menu{
+
+    width: 460px;
+    height: 40px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-top: 40px;
+    background: #006699;
+}
+
+
+.menu ul{
+
+}
+
+
+.menu ul li{
+   
+   list-style: none;/*kita punto*/
+   float: left;   
+}
+
+.menu ul li a{
+	text-decoration: none;/*kitr linea*/
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: white;
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	/*transition: background 1s, color 1s;*/
+}
+
+#slide{
+	margin-top: 2px;
+	width: 900px;
+	height: 500px;
+}
+
+#categorias{
+   width: 900px;
+   height: auto;
+   overflow: hidden;
+   border: 0px solid;
+   margin-top: 15px;
+}
+
+
+
+.uno{
+	width: 280px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+    color: #707070;    
+    text-align: justify;
+
+}
+
+.dos{
+	margin: 0px 12px; 
+}
+
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin: 10px;
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+
+#info{
+
+	width: 900px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px;
+
+}
+
+#izq{
+	width: 585px;
+	height: auto;overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	color: #4682b4;
+}
+
+.imge{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+
+#der{
+	width: 290px;
+	height:300; 
+	border: 1px solid #ccc;
+	float: right;
+}
+
+footer{
+  width:900px;
+  height: 60px;
+  text-align: center;
+  color: white;
+  background: #241C1C;
+}
+
+footer p{
+   width: 500px;
+   margin: auto;
+   margin-top: 20px;
+}
+
+footer p a:hover{
+   color: yellow;
+   text-decoration: none;
+}
